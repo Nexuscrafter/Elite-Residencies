@@ -42,15 +42,6 @@ This multipage website is designed to showcase the offerings and features of lux
 
 
 
-### 4. Nearest Location
-
-- Maps and directions to the hotel from key locations.
-- Useful information on nearby facilities and amenities.
-
-![2024-01-29 (1)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/c841a87b-bdb9-463a-9e3c-f1e974890b10)
-
-
-
 ### 5. About Us
 
 - Background information about luxury hotels.
@@ -62,8 +53,6 @@ This multipage website is designed to showcase the offerings and features of lux
 
 ### 6. Contact us
 
-![2024-01-29 (5)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/39011563-281a-4e26-be61-e20324183e09)
-
-![2024-01-29 (5)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/92394119-46ec-45f1-8540-c8ffa666c5c0)
+![2024-01-29 (7)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/60f62f3f-fd9c-42ad-bca6-6afe7045ac14)
 
 
