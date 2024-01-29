@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Booking </title>
+    <link rel="stylesheet" href="../css/booking.css">
+
+</head>
+
+<body>
+
+
+    <div class="navBar">
+
+        <div>
+            <img src="../images/logo--Taj.png" class="logoImg" />
+        </div>
+        <div class="navbarMenue">
+            <a href="./../index.html" class="navbarOption"> HOME </a>
+
+        </div>
+
+    </div>
+
+    <div class="middlePart">
+        <div class="infoContainer">
+
+            <h4 class="formHead"> Guest Information </h4>
+
+            <form id="guestInformationForm">
+
+                <label for="name" class="labelDeco"> Name </label> &nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="First Name" id="fname" name="name" required> &nbsp;&nbsp;
+                <input type="text" placeholder="Last Name" id="lname" name="name" required> <br><br>
+
+                <label for="email" class="labelDeco"> E-mail </label> &nbsp;&nbsp;&nbsp;
+                <input type="email" placeholder="ex.abc@gmail.com" id="email" name="email" required> <br><br>
+
+                <label for="phone" class="labelDeco"> Contact No </label> &nbsp;&nbsp;&nbsp;
+                <input type="tel" placeholder="Phone Number" id="phone" name="phone" required> <br><br>
+
+                <label class="labelDeco"> Your Aadhar Card </label> &nbsp;&nbsp;&nbsp;
+                <input type="file" multiple accept="apllication/*"> <br><br>
+
+                <label for="checkIn" class="labelDeco"> Check-In Date And Time </label> &nbsp;&nbsp;&nbsp;
+                <input type="date" id="checkinDate" name="checkinDate" required> <br><br>
+
+                <label for="checkOut" class="labelDeco"> Check-Out Date And Time </label> &nbsp;&nbsp;&nbsp;
+                <input type="date" id="checkoutDate" name="checkoutDate" required> <br> <br>
+
+                <label class="labelDeco"> Bed Type </label> &nbsp;&nbsp;&nbsp;
+                <select>
+                    <option> Single Bed </option>
+                    <option> Twin Bed </option>
+                    <option> Queen Bed </option>
+                </select> <br>
+
+                <span class="container">
+                    <label for="numberGuest" class="increDecre_Guest" class="labelDeco"> Number Of Bed (if single bed)</label>
+                    <span class="for_numGuest">
+                        <img src="./../images/minus.png" onclick="decrNumber()" class="numberIcons" />
+                        <span class="guestValue" id="guestNumber"> 1 </span>
+                        <img src="./../images/plus.png" onclick="increNumber()" class="numberIcons" />
+                    </span>
+                </span> <br> 
+
+                <h4 class="formHead"> Payment Details </h5>
+
+                    <label for="cardNumber" class="labelDeco"> Card Number </label> &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="1111 2222 3333 4444" required>
+                    <br><br>
+
+                    <label for="expiryDate" class="labelDeco"> Expiry Date </label> &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required> <br><br>
+
+                    <label for="cvv" class="labelDeco"> CVV </label> &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="cvv" name="cvv" placeholder="123" required> <br> <br>
+
+                <h4 class="formHead"> Terms and Conditions </h5>
+
+                        <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+                        <label for="termsCheckbox"> I have read and agree to the <a href=""> terms and conditions </a>
+                        </label> <br> <br>
+
+                        <button type="button" class="btnConfirm" onclick="confirmBooking()"> Confirm Booking </button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btnConfirm"> Print Recipt </button>
+
+            </form>
+        </div>
+
+        <div>
+
+            <div class="card">
+                <img src="../images/card-1-img-js5.jpg" alt="Card Image">
+                <span class="roomName"> Single Room </span>
+                <button class="bookNow"> Book Now </button>
+            </div>
+
+            <div class="card">
+                <img src="../images/card-1-img.jpg" alt="Card Image">
+                <span class="roomName"> Deluxe Room </span>
+                <button class="bookNow"> Book Now </button>
+            </div>
+
+            <div class="card">
+                <img src="../images/card-2-img1.webp" alt="Card Image">
+                <span class="roomName"> Single Room </span>
+                <button class="bookNow"> Book Now </button>
+            </div>
+
+            <h3 class="seeMore"> <a href="../pages/room.html"> See more ....</a> </h3>
+        </div>
+
+    </div>
+
+   
+    <div class="footer">
+        <div class="footer-about-us">
+            <h2 class="about-us">About Us</h2>
+            <hr />
+            <p class="about-us-text"> Hotel Taj is the right choice for visitors who are searching for combination of
+                charm and joyful nature view from where to explore surroundings. Our rooms are appointed to make your
+                stay more comfortable.</p>
+        </div>
+        <div class="footer-nvigation">
+            <h2 class="navigation">Navigation</h2>
+            <hr />
+            <a href="./../index.html" class="navigation-pages">Home</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="./../pages/about.html" class="navigation-pages">About</a>
+
+            <br /><br /><br />
+            <a href="./../pages/room.html" class="navigation-pages">Rooms</a>
+            <br /><br /><br />
+            <a href="./../pages/help.html" class="navigation-pages">Contact</a>
+
+
+        </div>
+
+        <div class="footer-connect">
+            <h2 class="navigation">Let's Connect</h2>
+            <hr />
+            <span>
+                <image class="location" src="./../images/location.png" />
+                <a class="location-address"
+                    href="https://www.google.com/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9220082,72.8332028,17z/data=!3m1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m20!1m10!3m9!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!2sThe+Taj+Mahal+Palace,+Mumbai!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj!3m8!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216631!4d72.8332028!16zL20vMDZieDFj?entry=ttu">Apollo
+                    Bandar, Colaba, Mumbai, Maharashtra 400001</a><br /><br />
+
+                <img class="mail" src="./../images/mail.png" />
+                <a class="mail-address"
+                    href="https://www.tajhotels.com/en-in/about-us/contact-us/write-to-us/">care.tajness.gmail.com</a>
+                <br /><br />
+                <img class="contact" src="./../images/phone-call.png" />
+                <a class="contact-address" href="+91 (22) 6601 1825.">+91 (22) 6601 1825.</a>
+            </span>
+            <br /><br /><br />
+
+            <span>
+                <img class="facebook" src="./../images/facebook.png" />
+                <img class="facebook" src="./../images/twitter.png" />
+                <img class="facebook" src="./../images/instagram.png" />
+            </span>
+        </div>
+
+    </div>
+    <div class="footer-last">
+        <span class="last-footer-text">Hotel Taj © 2023-All  Rights Reserved.</span>
+
+    </div>
+
+    <script src="../js/booking.js"> </script>
+
+</body>
+
+</html>
