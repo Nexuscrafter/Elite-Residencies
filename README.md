@@ -18,40 +18,47 @@ This multipage website is designed to showcase the offerings and features of lux
 
 ### 1. Home Page
 
-![image](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/17108ab7-3461-47c0-9444-7ee90f980a91)
-
 - Welcoming introduction to hotel.
 - Eye-catching visuals highlighting the hotel's unique features.
 
+  ![2024-01-29](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/1508e507-3919-47a3-b202-9508030b1586)
+
+
 ### 2. Source of Attraction
-
-
 
 - Information about nearby attractions and points of interest.
 - Engaging content and images to entice visitors.
 
+![2024-01-29 (1)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/9f47d36c-2273-45f5-ae02-1dab535ac25c)
+
 ### 3. Room Service
+
+- Detailed descriptions of room services available.
+- High-quality images showcasing different room options.
 
 ![2024-01-29 (3)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/73e4267f-23f7-418a-b944-40549bc44098)
 
 ![2024-01-29 (4)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/e8787b58-9a34-41d4-8d71-b6de695eb717)
 
-- Detailed descriptions of room services available.
-- High-quality images showcasing different room options.
+
 
 ### 4. Nearest Location
-
-![2024-01-29 (1)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/c841a87b-bdb9-463a-9e3c-f1e974890b10)
 
 - Maps and directions to the hotel from key locations.
 - Useful information on nearby facilities and amenities.
 
-### 5. About Us
+![2024-01-29 (1)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/c841a87b-bdb9-463a-9e3c-f1e974890b10)
 
-![2024-01-29 (5)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/cd2d7de8-6e14-436d-960f-2fae40c16b90)
+
+
+### 5. About Us
 
 - Background information about luxury hotels.
 - History, mission, and values of the hotel.
+
+
+![2024-01-29 (5)](https://github.com/Nexuscrafter/Elite-Residencies/assets/144047787/cd2d7de8-6e14-436d-960f-2fae40c16b90)
+
 
 ### 6. Contact us
 
